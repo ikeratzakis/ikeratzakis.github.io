@@ -7,7 +7,7 @@ categories: DATA-ENGINEERING RUST PYTHON
 
 # Parsing millions (or billions) of PGN games
 
-I love chess. I've been playing since I was a child, albeit with long pauses in between . Recently, I came across this [huge database of games on lichess.com](https://database.lichess.org/) which contains literally **billions** of [.pgn](https://en.wikipedia.org/wiki/Portable_Game_Notation) files, which are compressed with [zstd](https://en.wikipedia.org/wiki/Zstd). I wanted to do the following:
+I love chess. I've been playing since I was a child, albeit with long pauses in between . Recently, I came across this [huge database of games on lichess.com](https://database.lichess.org/) which contains literally **billions** of games in[.pgn](https://en.wikipedia.org/wiki/Portable_Game_Notation) format, which are compressed with [zstd](https://en.wikipedia.org/wiki/Zstd). I wanted to do the following:
 
 1. Download the files for each year
 2. Preprocess them, meaning: extract the headers, the moves, correct faulty data, and store them in a more suitable format (CSV? JSONL?)
